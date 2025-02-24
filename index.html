@@ -10,16 +10,17 @@
             line-height: 1.6;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f9;
-            color: #333;
+            background: url('background.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: #fff;
         }
         .container {
             width: 80%;
             max-width: 900px;
             margin: 20px auto;
-            background: #fff;
+            background: rgba(0, 0, 0, 0.7);
             padding: 20px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
             border-radius: 10px;
         }
         header {
@@ -29,41 +30,12 @@
         header h1 {
             margin: 0;
             font-size: 2.5em;
-            color: #0077b6;
+            color: #f8c471;
         }
         header h2 {
             margin: 5px 0;
             font-size: 1.2em;
-            color: #555;
-        }
-        .section {
-            margin-bottom: 20px;
-        }
-        .section h3 {
-            margin-bottom: 10px;
-            font-size: 1.5em;
-            color: #0077b6;
-            border-bottom: 2px solid #ddd;
-            padding-bottom: 5px;
-        }
-        .section p {
-            margin: 5px 0;
-        }
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        ul li {
-            margin: 5px 0;
-        }
-        .contact-info {
-            display: flex;
-            justify-content: space-between;
-            flex-wrap: wrap;
-        }
-        .contact-info div {
-            flex: 1;
-            margin: 5px;
+            color: #ddd;
         }
         .profile-picture {
             text-align: center;
@@ -75,11 +47,20 @@
             height: 150px;
             object-fit: cover;
         }
+        .contact-info div, .section ul li {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 5px;
+        }
+        a {
+            color: #f8c471;
+        }
         footer {
             text-align: center;
             margin-top: 20px;
             font-size: 0.9em;
-            color: #555;
+            color: #ddd;
         }
     </style>
 </head>
@@ -90,29 +71,20 @@
             <h2>Captain / Deck Officer</h2>
         </header>
 
-        <!-- Insert your image here -->
         <div class="profile-picture">
             <img src="profile.jpg" alt="Arrigo Garipoli Photo">
         </div>
 
         <div class="contact-info">
-            <div>
-                <strong>Email:</strong> info@blueqbit.space
-            </div>
-            <div>
-                <strong>Website:</strong> <a href="https://www.youtube.com/@capthoook/">YouTube</a>
-            </div>
-            <div>
-                <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/garipoli/">Linkedin</a>
-            </div>
-            <div>
-                <strong>Website:</strong> <a href="https://www.blueqbit.space/">BlueQbit/</a>
-            </div>
+            <div><strong>Email:</strong> info@blueqbit.space</div>
+            <div><strong>Website:</strong> <a href="https://www.youtube.com/@capthoook/">YouTube</a></div>
+            <div><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/garipoli/">LinkedIn</a></div>
+            <div><strong>Website:</strong> <a href="https://www.blueqbit.space/">BlueQbit</a></div>
         </div>
 
         <div class="section">
             <h3>Professional Summary</h3>
-            <p>Captain with over 17 years of maritime experience, specializing in passenger vessels, tugboats, and luxury yachts. Expertise in navigating complex areas, maritime safety management, and refitting projects. Offering technical and managerial skills combined with strong leadership and problem-solving abilities.</p>
+            <p>Captain with over 17 years of maritime experience, specializing in passenger vessels, tugboats, and luxury yachts...</p>
         </div>
 
         <div class="section">
@@ -122,8 +94,6 @@
                 <li>Maritime agent and surveyor for port and vessel damage.</li>
                 <li>Project Manager for luxury yacht reconstruction and refitting.</li>
                 <li>Pilot at the Port of Humber (UK).</li>
-                <li>Ashdod Port Surveyor,Zim Line IMCO Cargo Surveyor(IL).</li>
-                
             </ul>
         </div>
 
@@ -133,14 +103,8 @@
                 <li>Updated STCW Certification.</li>
                 <li>Certified 462 CC Genova Ship's Agent.</li>
                 <li>Master Mariner License.</li>
-                <li>Proficient with advanced navigation software and blockchain logistics applications.</li>
-                <li>Languages: Italian (native), English (fluent), Hebrew (moderate).</li>
+                <li>Proficient with navigation software and blockchain logistics.</li>
             </ul>
-        </div>
-
-        <div class="section">
-            <h3>Availability</h3>
-            <p>Open to new opportunities .</p>
         </div>
 
         <footer>
@@ -149,3 +113,4 @@
     </div>
 </body>
 </html>
+
